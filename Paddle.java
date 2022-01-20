@@ -15,7 +15,7 @@ public class Paddle implements Runnable{
 		this.x = x;
 		this.y = y;
 		this.id = id;
-		paddle = new Rectangle(x, y, 10, 50);
+		paddle = new Rectangle(x, y, 10, 100);
 		}
 		
 	public void keyPressed(KeyEvent e) {

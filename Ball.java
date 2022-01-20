@@ -38,7 +38,7 @@ public class Ball implements Runnable {
 		setYDirection(rYDir);
 		
 		//create "ball"
-		ball = new Rectangle(this.x, this.y, 15, 15);
+		ball = new Rectangle(this.x, this.y, 7.5, 7.5);
 	}
 	
 	public void setXDirection(int xDir){
