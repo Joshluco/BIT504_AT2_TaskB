@@ -27,7 +27,7 @@ public class Pong extends JFrame {
 		this.setSize(screenSize);
 		this.setResizable(false);
 		this.setVisible(true);
-		this.setBackground(Color.DARK_GRAY);
+		this.setBackground(Color.WHITE);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.addKeyListener(new AL());
 	}
